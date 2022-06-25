@@ -346,7 +346,14 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Counter_Styles/Using_CSS_co
 }
 
 .footer__column_links {
+  margin: 0;
   padding: 20px 0 16px;
+  list-style-type: none;
+}
+
+.footer__column_links li {
+  margin: 0;
+  padding: 0;
 }
 
 .footer__column_link {
