@@ -1,0 +1,32 @@
+.resources__logo {
+  height: 100%;
+}
+
+.resources__logo:hover {
+  opacity: .63;
+  transition: opacity .3s ease;
+}
+
+/*
+На ссылке "Полка" из-за тонких букв прозрачность смотрелась некрасиво,
+попробовал добавить вместо нее анимацию:
+*/
+
+.resources__logo[alt='Полка']:hover {
+  opacity: 1;         /* отменяем действие менее специфичного селектора .resources__logo:hover */
+  transition: none;   /* отменяем действие менее специфичного селектора .resources__logo:hover */
+  animation: shake .5s ease-in;
+}
+
+@keyframes shake {
+  10% {transform: rotate(-5deg) translate(0, -4px);}
+  20% {transform: rotate(5deg) translate(0, -3px);}
+  30% {transform: rotate(-4deg) translate(0, -2px);}
+  40% {transform: rotate(4deg) translate(0, -2px);}
+  50% {transform: rotate(-3deg) translate(0, -1px);}
+  60% {transform: rotate(3deg) translate(0, -1px);}
+  70% {transform: rotate(-2deg) translate(0, -1px);}
+  80% {transform: rotate(2deg) translate(0, 0);}
+  90% {transform: rotate(-1deg) translate(0, 0);}
+  100% {transform: rotate(0) translate(0, 0);}
+}

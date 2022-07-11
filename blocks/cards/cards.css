@@ -1,0 +1,9 @@
+.cards {
+  margin: 0;
+  padding: 0;
+  max-width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 100px;
+  /*justify-content: center;*/  /* Так красивее, но не соответствует макету */
+}

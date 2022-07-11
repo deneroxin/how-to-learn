@@ -1,0 +1,8 @@
+.footer {
+  padding: 60px 0 40px;
+  min-height: 350px;       /* по-видимому, минимальная высота footer задана с учетом отступов, .. */
+  box-sizing: border-box;  /* ..поэтому разворачиваем отступы внутрь (либо можно уменьшить min-height на (60+40)px) */
+  background-color: var(--color-dark-grey);
+  display: flex;
+  justify-content: center;
+}

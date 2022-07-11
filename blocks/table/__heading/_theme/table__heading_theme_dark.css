@@ -1,0 +1,3 @@
+.table__heading_theme_dark::before {
+  content: counter(item-index, decimal);   /* подставить текущее значение счетчика в заголовок ячейки таблицы */
+}

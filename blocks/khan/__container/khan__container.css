@@ -1,0 +1,10 @@
+.khan__container {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+}
+
+.khan__container > blockquote {
+  margin: 0;
+  padding: 0;
+}

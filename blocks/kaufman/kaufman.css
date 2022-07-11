@@ -1,0 +1,11 @@
+.kaufman {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  color: var(--color-white);    /* унаследуется заголовками внутри секции */
+  background-color: var(--color-dark-grey);
+  position: relative;
+}

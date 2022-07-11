@@ -1,0 +1,6 @@
+.footer__column_content_copyright {
+  flex-basis: 711px;                /* устанавливаем логическую ширину первой колонки больше, чем у остальных */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;   /* прижимаем логотип к верхнему, а имя автора - к нижнему краю */
+}
