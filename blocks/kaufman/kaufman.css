@@ -6,6 +6,6 @@
   align-items: center;
   overflow: hidden;
   color: var(--color-white);    /* унаследуется заголовками внутри секции */
-  background-color: var(--color-dark-grey);
+  background: var(--color-dark-grey);
   position: relative;
 }

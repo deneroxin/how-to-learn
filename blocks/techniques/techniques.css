@@ -2,7 +2,7 @@
   margin: 0 auto 0;
   padding: 100px 0 0;
   width: 80%;
-  background-color: var(--color-white);
+  background: var(--color-white);
   display: flex;
   flex-direction: column;
   align-items: center;

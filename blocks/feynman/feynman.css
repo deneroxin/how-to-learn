@@ -1,14 +1,11 @@
 .feynman {
   padding-top: 100px;
-  min-height: 790px;
+  min-height: 890px;
+  box-sizing: border-box;   /* теперь высота 890px включает padding в 100px */
   display: flex;
   flex-direction: column;
   align-items: center;
   color: var(--color-black);
-  background-color: var(--color-light-grey);
-  background-image: url(feynman.png);
-  background-position: left bottom;
-  background-size: 867px 637px;
-  background-repeat: no-repeat;
+  background: var(--color-light-grey) url(./feynman.png) left bottom / 867px 637px no-repeat;
   position: relative;
 }

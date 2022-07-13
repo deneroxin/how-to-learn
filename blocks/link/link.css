@@ -2,13 +2,9 @@
   display: block;
   text-decoration: none;
   color: var(--color-blue);
-}
-
-.link::after {
-  content: ' →';
+  transition: opacity .3s ease;  /* чтобы плавность работала в обе стороны */
 }
 
 .link:hover {
   opacity: .7;
-  transition: opacity .3s ease;
 }

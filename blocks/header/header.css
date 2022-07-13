@@ -2,7 +2,7 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  background-color: var(--color-light-grey);
+  background: var(--color-light-grey);
   color: var(--color-black);
   position: relative;
   display: flex;
